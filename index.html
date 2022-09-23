@@ -4,11 +4,52 @@
 <head>
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@1,100;1,300&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@600&family=Roboto:ital,wght@1,100;1,300&display=swap"
+        rel="stylesheet">
     <style>
-        header,
+        header {
+            color: #d63031;
+            background-color: #81ecec;
+            text-align: end;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .nav_bar,
+        nav {
+            text-decoration: none;
+            background-color: #ffeaa7;
+            color: #d63031;
+            font-size: 25px;
+            font-family: 'Bangers', cursive;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #frame {
+            border: none;
+        }
+
         footer {
-            color: rgb(197, 46, 172);
-            background-color: aquamarine;
+            color: #044e3f;
+            font-size: 25px;
+            background-color: #d6bb63;
+            font-family: 'Bangers', cursive;
+            font-family: 'Caveat', cursive;
+            font-family: 'Orbitron', sans-serif;
+            font-family: 'Roboto', sans-serif;
+
+
         }
     </style>
 </head>
@@ -24,16 +65,16 @@
         <br><br>
     </header>
     <nav>
-        <a href="home.html" target="myFrame"><b> HOME</b></a>&nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame"> <b>TECH STACK</b></a>&nbsp;&nbsp;
-        <a href="educationDetails.html" target="myFrame"> <b>EDUCATION</b></a>&nbsp;&nbsp;
-        <a href="projectDetails.html" target="myFrame"><b>PROJECT</b></a>&nbsp;&nbsp;
-        <a href="hobbies.html" target="myFrame"><b>HOBBIES</b></a>&nbsp;&nbsp;
-        <a href="personalDetails.html" target="myFrame"><b>PERSONAL DETAILS</b></a>&nbsp;&nbsp;
-        <a href="others.html" target="myFrame"><b>OTHERS</b></a>
+        <a href="home.html" target="myFrame" class="nav_bar"><b> HOME</b></a>&nbsp;&nbsp;
+        <a href="techStack.html" target="myFrame" class="nav_bar"> <b>TECH STACK</b></a>&nbsp;&nbsp;
+        <a href="educationDetails.html" target="myFrame" class="nav_bar"> <b>EDUCATION</b></a>&nbsp;&nbsp;
+        <a href="projectDetails.html" target="myFrame" class="nav_bar"><b>PROJECT</b></a>&nbsp;&nbsp;
+        <a href="hobbies.html" target="myFrame" class="nav_bar"><b>HOBBIES</b></a>&nbsp;&nbsp;
+        <a href="personalDetails.html" target="myFrame" class="nav_bar"><b>PERSONAL DETAILS</b></a>&nbsp;&nbsp;
+        <a href="others.html" target="myFrame" class="nav_bar"><b>OTHERS</b></a>
     </nav>
     <br>
-    <iframe name="myFrame" src="info.html" width="900px" height="600"></iframe>
+    <iframe name="myFrame" src="info.html" width="900px" height="600" id="frame"></iframe>
     <footer>
         <span><b>Follow me </b></span>&nbsp;&nbsp;
         <a href="https://in.linkedin.com/" target="_blank">
