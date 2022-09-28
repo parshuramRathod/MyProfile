@@ -4,28 +4,34 @@
 <head>
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@1,100;1,300&display=swap"
-        rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link
         href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@600&family=Roboto:ital,wght@1,100;1,300&display=swap"
         rel="stylesheet">
     <style>
-        header {
+      header,.details span {
             color: #d63031;
             background-color: #81ecec;
-            text-align: end;
             font-size: 20px;
+            text-align: end;
             font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            padding:10px;
         }
-
+        span{
+            margin: 10px;
+        }
+       
         .nav_bar,
         nav {
             text-decoration: none;
@@ -34,13 +40,17 @@
             font-size: 25px;
             font-family: 'Bangers', cursive;
             font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+        .nav_bar{
+            margin: 25px;
         }
 
         #frame {
             border: none;
         }
 
-        footer {
+        footer, a {
             color: #044e3f;
             font-size: 25px;
             background-color: #d6bb63;
@@ -48,47 +58,57 @@
             font-family: 'Caveat', cursive;
             font-family: 'Orbitron', sans-serif;
             font-family: 'Roboto', sans-serif;
-
-
+            font-weight: bold;
+            text-decoration: none;
         }
+        a{
+            margin: 25px;
+        }
+
     </style>
 </head>
 
 <body>
     <header>
+        <div class="details">
         <span> <i class="fa fa-user" aria-hidden="true"></i></span>
-        <span><strong> Parshuram Rathod</strong></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span> Parshuram Rathod</span>
         <span><i class="fa fa-phone-square" aria-hidden="true"></i></span>
-        <span> <b> 8177852570</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>  8177852570</span>
         <span> <i class="fa fa-envelope" aria-hidden="true"></i></span>
-        <span> <b> parshuramrathod9540@gmail.com</b></span>
-        <br><br>
+        <span>  parshuramrathod9540@gmail.com</span>
+    </div>
+        
     </header>
     <nav>
-        <a href="home.html" target="myFrame" class="nav_bar"><b> HOME</b></a>&nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame" class="nav_bar"> <b>TECH STACK</b></a>&nbsp;&nbsp;
-        <a href="educationDetails.html" target="myFrame" class="nav_bar"> <b>EDUCATION</b></a>&nbsp;&nbsp;
-        <a href="projectDetails.html" target="myFrame" class="nav_bar"><b>PROJECT</b></a>&nbsp;&nbsp;
-        <a href="hobbies.html" target="myFrame" class="nav_bar"><b>HOBBIES</b></a>&nbsp;&nbsp;
-        <a href="personalDetails.html" target="myFrame" class="nav_bar"><b>PERSONAL DETAILS</b></a>&nbsp;&nbsp;
-        <a href="others.html" target="myFrame" class="nav_bar"><b>OTHERS</b></a>
+        <div>
+        <a href="home.html" target="myFrame" class="nav_bar"> HOME</a>
+        <a href="techStack.html" target="myFrame" class="nav_bar"> TECH STACK</a>
+        <a href="educationDetails.html" target="myFrame" class="nav_bar"> EDUCATION</a>
+        <a href="projectDetails.html" target="myFrame" class="nav_bar">PROJECT</a>
+        <a href="hobbies.html" target="myFrame" class="nav_bar">HOBBIES</a>
+        <a href="personalDetails.html" target="myFrame" class="nav_bar">PERSONAL DETAILS</a>
+        <a href="others.html" target="myFrame" class="nav_bar">OTHERS</a>
+    </div>
     </nav>
-    <br>
+   
     <iframe name="myFrame" src="info.html" width="900px" height="600" id="frame"></iframe>
     <footer>
-        <span><b>Follow me </b></span>&nbsp;&nbsp;
+        <div class="tag">
+        <span>Follow me </span>
         <a href="https://in.linkedin.com/" target="_blank">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a>&nbsp;&nbsp;
+        </a>
         <a href="https://www.google.com/" target="_blank">
             <i class="fa fa-google" aria-hidden="true"></i>
-        </a> &nbsp;&nbsp;
+        </a> 
         <a href="https://www.instagram.com/accounts/login/" target="_blank">
             <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>&nbsp;&nbsp;
+        </a>
         <a href="https://www.facebook.com/login/" target="_blank">
             <i class="fa fa-facebook-official" aria-hidden="true"></i>
         </a>
+    </div>
     </footer>
 </body>
 
