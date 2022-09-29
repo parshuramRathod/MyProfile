@@ -4,47 +4,81 @@
 <head>
     <title>Project Details</title>
     <style>
-        h2 {
+        .heading {
             color: #130f40;
-            background-color: #f1c38e;
+            background-color: #F8EFBA;
             font-size: 32px;
             font-style: italic;
             font-weight: bold;
         }
 
-        p {
+        .details p {
             color: #130f40;
-            background-color: #e6c6a3;
-            font-size: 22px;
+            background-color: #F8EFBA;
+            font-size: 24px;
             font-style: italic;
             font-weight: bold;
+        }
+
+        #name {
+            font-weight: bold;
+            font-size: 25px;
+            font-style: italic;
+            margin: 10px;
+        }
+
+        #space {
+            margin-left: 80px;
+        }
+
+        .role {
+            font-size: x-large;
+            margin: 50px;
+            color: #130f40;
+            /* background-color: #F8EFBA; */
+            font-style: italic;
+
+        }
+
+        .project {
+            font-weight: bold;
+            font-size: xx-large;
+            font-style: italic;
+        }
+
+        #description {
+            margin: 10px;
         }
     </style>
 </head>
 
 <body>
-    <h2>Project Details</h2>
+    <h2 class="heading">Project Details</h2>
     <hr>
-    <p><strong>Name:</strong> <u><b>Student Management</b></u></p>
-    <p><b><u>Environment:</u></b><mark>Angular8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,GitHub,Desktop
-            GitHub,Agile and JIRA,IDE-VS Code</mark></p>
-    <p><b>Team Size-</b>06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Duration:</b> 2022-1<sup>st</sup>-july
-        till <u> <i>present</i></u></p>
-    <p><b>Project Description: </b>This project is mainly used for student management in colleges, where it help to
-        manage student record like <br>
-        student registration, student update information and to see all his or her academic activities like score card,
-        attendance </p>
+    <div class="details">
+        <p id="name">Name:<u>Student Management</u></p>
+        <p><u>Environment:</u><mark>Angular8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,GitHub,Desktop
+                GitHub,Agile and JIRA,IDE-VS Code</mark></p>
+        <p>Team Size-06 <span id="space"> Duration: 2022-1<sup>st</sup>-july</span> till <u> present</u></p>
+        <p><span class="project"> <u>Project Description:</u></span> <span id="description"> This project is mainly used
+                for student management in colleges, where it help to
+                manage student record like
+                student registration, student update information and to see all his or her academic activities like
+                score card,
+                attendance </span></p>
+    </div>
     <hr>
-    <p><b>Roles and Responsibilities:</b><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Designed and Implemented the user interface using HTML5 and CSS
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Work closely with backend developer for code integration <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identifying and Troubleshooting issues with front end code <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Worked on GIT as a version control <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Used Jira for bug tracking <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Implemented project using Agile SCRUM methodologies, Involved
-        in daily stand up meetings, sprint showcase and sprint retrospective <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Involved in fixing technical issues. <br>
+    <h2>Roles and Responsibilities:</h2>
+    <div class="role">
+        <p> Designed and Implemented the user interface using HTML5 and CSS</p>
+        <p>Work closely with backend developer for code integration </p>
+        <p>Identifying and Troubleshooting issues with front end code </p>
+        <p>Worked on GIT as a version control </p>
+        <p>Used Jira for bug tracking </p>
+        <p>Implemented project using Agile SCRUM methodologies, Involved
+            in daily stand up meetings, sprint showcase and sprint retrospective </p>
+        <p>Involved in fixing technical issues. </p>
+    </div>
 
 
 </body>
