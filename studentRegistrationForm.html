@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Student Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url(image.jpg);
+            background-repeat: no-repeat;
+            background-size: 1800px 800px;
+        }
+
+        label {
+            color: #660c42;
+            font-size: 23px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        h2 {
+            text-shadow: 4px 12px 4px;
+            color: #0652DD;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="date"],
+        input[type="password"],
+        input[type="file"],
+        option {
+            border-radius: 15px;
+            color: #660c42;
+            width: 260px;
+            height: 20px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            font-size: 20px;
+            width: 100px;
+            height: 50px;
+            color: #551039;
+            border-radius: 15px;
+            background-color: aquamarine;
+        }
+
+        strong,
+        a {
+
+            color: #660c42;
+            font-size: x-large;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        input[type="text"]:hover {
+            color: aqua;
+            background-color: #10eee3;
+        }
+    </style>
+</head>
+
+<body>
+    <marquee behavior="sliding" direction="left">
+        <h2>Student Registration Form</h2>
+    </marquee>
+    <form action="">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" autofocus required></td>
+                </tr>
+                <tr>
+                    <td><label> Last Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address</label></td>
+                    <td><input type="email" placeholder="abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password"></td>
+
+                </tr>
+                <tr>
+                    <td><label> Graduation</label></td>
+                    <td><input type="text"> </td>
+                </tr>
+                <tr>
+                    <td><label> Date of Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label> Pass out year</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td> <input type="text" value="India" disabled></td>
+
+                </tr>
+                <tr>
+                    <td><label>Citizenship</label> </td>
+                    <td> <input type="text" value="India" readonly></td>
+
+                </tr>
+                <tr>
+
+                    <td> <label> Profile Photo</label></td>
+                    <td> <input type="file"> </td>
+                </tr>
+                <tr>
+                    <td><label> Upload Mark sheet</label></td>
+                    <td><input type="file" multiple></td>
+                </tr>
+                <tr>
+                    <td> <label>Select Graduation</label></td>
+                    <td>
+                        <select>
+                            <option>B.E</option>
+                            <option>MCA</option>
+                            <option>BCA</option>
+                            <option>MBA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Gender</label> </td>
+                    <td>
+                        <input type="radio" name="gender"> <label> Female </label>
+                        <input type="radio" name="gender"> <label> Male </label>
+                        <input type="radio" name="gender"> <label> Others </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Permanent Address </label></td>
+                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <footer>
+        <p> <strong>SSO sign in option</strong>&nbsp;&nbsp;
+            <a href="https://www.google.com/" target="blank">
+                <i class="fa fa-google" aria-hidden="true"></i>
+            </a>&nbsp;&nbsp;
+            <a href="https://www.inp;&nbsp;stagram.com/accounts/login/" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>&nbsp;&nbsp;
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
